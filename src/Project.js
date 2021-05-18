@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import landscape from './landscape.jpg';
 
 export default function Project(props) {
 

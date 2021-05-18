@@ -12,7 +12,7 @@ export default function AboutMe() {
                     <h3 className='text-center fst-italic'><samp>Hi, I am Chance, nice to meet you!</samp></h3>
                     <div className='d-flex justify-content-center'>
                         <h6 className='text-center col-sm-12 col-md-5'>
-                            <samp>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget libero sit amet nulla congue aliquam. Sed suscipit, ante quis pharetra viverra, velit ex sollicitudin augue, sit amet tincidunt lectus justo et ipsum. Proin ornare, sem ac ullamcorper consectetur, lectus libero egestas leo, eu ornare ipsum ligula at lectus.</samp>
+                            <samp>I'm a proficient web developer with skills in React and Database Development with additional full stack training through academia and Awesome Inc Bootcamp prepared to apply concepts and contribute to a team</samp>
                         </h6> 
                     </div>
                 </div>        
