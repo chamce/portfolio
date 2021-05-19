@@ -14,8 +14,8 @@ import chat from './Images/chat.PNG';
 export default function Portfolio() {
     let projects = [
         {link: 'https://chamce-messenger.web.app/', img: chat, title: 'Chat Now', text: 'React, Bootstrap, Laravel, Pusher'},
-        {link: 'https://to-do-list-b6fa7.web.app/', img: todo, title: 'To Do List', text: 'React, Bootstrap'},
         {link: 'https://chamce.github.io/weather/', img: weather, title: 'Weather App', text: 'HTML, Bootstrap, JS'},
+        {link: 'https://to-do-list-b6fa7.web.app/', img: todo, title: 'To Do List', text: 'React, Bootstrap'},
         {link: 'https://chamce-sliding-puzzle.web.app/', img: puzzle, title: 'Sliding Puzzle', text: 'React, Bootstrap'},
         {link: 'https://chamce.github.io/campaign/', img: campaign, title: 'Campaign', text: 'HTML, Bootstrap'},
         {link: 'https://chamce.github.io/contact-card/', img: contact, title: 'Contact Card', text: 'HTML, Bootstrap'},
