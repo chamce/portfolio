@@ -9,6 +9,7 @@ export default function Splash() {
                 <div className='Welcome'>
                     <h1 className='text-center display-2'><samp>Chancellor Whitaker</samp></h1>
                     <h1 className='text-center display-2'><samp>Web Developer</samp></h1>
+                    
                 </div>      
             </div>
         </>

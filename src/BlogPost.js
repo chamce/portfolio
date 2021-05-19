@@ -13,7 +13,10 @@ export default function BlogPost(props) {
                 </h2>
                 <div id={"collapse" + props.index} class="accordion-collapse collapse bg-dark" aria-labelledby={"heading" + props.index} data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <samp><strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</samp>
+                        <samp>
+                            <h3>{props.post.date}</h3>
+                            { props.post.questions.map((question, index) => <><p className='fst-italic text-info'>{(index + 1) + '. ' + question.q}</p><p>{question.a}</p></>) }
+                        </samp>
                     </div>
                 </div>
             </div>
