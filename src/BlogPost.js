@@ -8,7 +8,7 @@ export default function BlogPost(props) {
             <div class="accordion-item">
                 <h2 class="accordion-header" id={"heading" + props.index}>
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={"#collapse" + props.index} aria-expanded="false" aria-controls={"collapse" + props.index}>
-                        <samp>Week {props.index + 1}</samp>
+                        <samp>Week {props.index + 1} - <span className='fst-italic'>{props.post.topics}</span></samp>
                     </button>
                 </h2>
                 <div id={"collapse" + props.index} class="accordion-collapse collapse bg-dark" aria-labelledby={"heading" + props.index} data-bs-parent="#accordionExample">

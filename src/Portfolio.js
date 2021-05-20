@@ -27,7 +27,7 @@ export default function Portfolio() {
     return (
         <>
             <div className='Page overflow-auto container-fluid bg-dark pb-4 px-4'>
-                <h1 className='display-2 text-white text-center'><samp>Portfolio</samp></h1>
+                <h1 className='display-2 text-white text-center fst-italic'><samp>Portfolio</samp></h1>
                 <div class="row row-cols-1 row-cols-md-4 g-3">
                     { projects.map((project, index) => <Project project={project} key={index}></Project>) }
                 </div>
