@@ -1,3 +1,17 @@
 .Page, html, body {
     height: 100vh;
 }
+
+svg:hover path, svg:hover polygon, .title:hover {
+    fill: blue;
+    color: yellow;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.title {
+    text-decoration: none;
+    color: white;
+}

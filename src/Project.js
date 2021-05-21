@@ -8,9 +8,11 @@ export default function Project(props) {
             <div class="col">
                 <div class="card bg-dark text-white border border-secondary h-100">
                     <a href={ props.project.link } target='_blank' rel='noreferrer'><img src={ props.project.img } class="card-img-top" alt="..."></img></a>
-                    <div class="card-body">
-                        <h5 class="card-title"><samp>{ props.project.title }</samp></h5>
-                        <p class="card-text"><samp>{ props.project.text }</samp></p>
+                    <div class="card-body text-center">
+                        <a href={ props.project.github } target='_blank' rel='noreferrer' className='title'>
+                            <h4 class="card-title"><samp>{ props.project.title }</samp></h4>
+                        </a>
+                        <p class="card-text fst-italic"><samp>{ props.project.text }</samp></p>
                     </div>
                 </div>
             </div>

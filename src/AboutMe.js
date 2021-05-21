@@ -8,7 +8,7 @@ export default function AboutMe() {
         <>
             <div className='Page bg-dark text-white d-flex align-items-center justify-content-center'>
                 <div className='Introduction'>
-                    <img src={ chance } style={ { height: '300px', width: '300px' } } class="rounded-circle mx-auto d-block mb-2" alt="..."></img>
+                    <img src={ chance } style={ { height: '300px', width: '300px' } } class="rounded-circle mx-auto d-block mb-3" alt="..."></img>
                     <h3 className='text-center fst-italic'><samp>Hi, I am Chance, nice to meet you!</samp></h3>
                     <div className='d-flex justify-content-center'>
                         <h6 className='text-center col-sm-12 col-md-5'>
