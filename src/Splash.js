@@ -7,9 +7,9 @@ export default function Splash() {
         <>
             <div className='Page bg-dark text-white d-flex align-items-center justify-content-center'>
                 <div className='Welcome'>
-                    <a href='https://ide.codeanywhere.com/portfolio-whitakerchancellor489903/files/download/?id=5fb38625-8592-4847-b159-5f7cc67d1708' className='title'>
+                    {/* <a href='./Resume/ChanceWhitakerResume.pdf' className='title' download> */}
                         <h1 className='text-center display-2'><samp>Chancellor Whitaker</samp></h1>
-                    </a>
+                    {/* </a> */}
                     <h1 className='text-center display-2 fst-italic'><samp>Web Developer</samp></h1>
                     <div className='d-flex justify-content-center d-grid gap-4 pt-3'>
                         <a href='https://github.com/chamce' target='_blank' rel='noreferrer'>
