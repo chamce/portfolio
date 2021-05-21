@@ -3,8 +3,8 @@
 }
 
 svg:hover path, svg:hover polygon, .title:hover {
-    fill: yellow;
-    color: blue;
+    fill: blue;
+    color: yellow;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
