@@ -84,7 +84,14 @@ export default function BlogPosts() {
         <>
             <div className='Page bg-dark text-white d-flex align-items-center justify-content-center'>
                 <div className='Introduction'>
-                    <h1 className='display-2 text-center'><samp>Awesome Inc Bootcamp Blog</samp></h1>
+                    <h1 className='display-2 text-center'>
+                        <samp>
+                            <a href='https://www.awesomeinc.org/bootcamp' target='_blank' rel='noreferrer' className='title'>
+                                <span>Awesome Inc Bootcamp</span>
+                            </a>
+                            {' Blog'}
+                        </samp>
+                    </h1>
                     <h1 className='display-5 text-center pb-3 fst-italic'><samp>Spring 2021</samp></h1>
                     <div className='overflow-auto border border-white rounded' style={ {height: '321px'} }>
                         <div class="accordion" id="accordionExample" style={ {maxWidth: '989.65px'} }>
