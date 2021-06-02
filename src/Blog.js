@@ -18,16 +18,16 @@ export default function Blog() {
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item active" data-bs-interval="5000">
                             <Splash></Splash>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="10000">
                             <AboutMe></AboutMe>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="300000">
                             <Portfolio></Portfolio>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="300000">
                             <BlogPosts></BlogPosts>
                         </div>
                     </div>
