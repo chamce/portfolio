@@ -15,7 +15,7 @@ export default function Portfolio() {
     let projects = [
         {github: 'https://github.com/chamce/checkers-front-end', link: 'https://chamce-messenger.web.app/', img: chat, title: 'Chat Now', text: 'React, Bootstrap, Laravel, Pusher'},
         {github: 'https://github.com/chamce/weather', link: 'https://chamce.github.io/weather/', img: weather, title: 'Weather App', text: 'HTML, Bootstrap, JS'},
-        {github: 'https://github.com/chamce/to-do-list', link: 'https://to-do-list-b6fa7.web.app/', img: todo, title: 'To Do List', text: 'React, Bootstrap'},
+        {github: 'https://github.com/chamce/to-do-list', link: 'https://chamce-to-do.web.app/', img: todo, title: 'To Do List', text: 'React, Bootstrap'},
         {github: 'https://github.com/chamce/sliding-puzzle', link: 'https://chamce-sliding-puzzle.web.app/', img: puzzle, title: 'Sliding Puzzle', text: 'React, Bootstrap'},
         {github: 'https://github.com/chamce/campaign', link: 'https://chamce.github.io/campaign/', img: campaign, title: 'Campaign', text: 'HTML, Bootstrap'},
         {github: 'https://github.com/chamce/contact-card', link: 'https://chamce.github.io/contact-card/', img: contact, title: 'Contact Card', text: 'HTML, Bootstrap'},
